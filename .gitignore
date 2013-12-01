@@ -1,1 +1,56 @@
+################
+# Design Files #
+################
+*.psd
+*.ai
+*.indd
+*.cdr
+*.raw
+*.psb
+*.tiff
+*.tif
+*.eps
+*.sketch
+
+############
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+############
+# SO files #
+############
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+.dropbox
+
+#############
+# log files #
+#############
+log/**/*
+*.log
+*.sqlite
+
+###################
+# Sass            #
+###################
 .sass-cache
+
+###################
+# temporary files #
+###################
+tmp/**/*
+*.tmp
+*.temp
+

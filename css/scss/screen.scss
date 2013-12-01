@@ -23,9 +23,9 @@
 @import "compass/css3";
 @import "compass/utilities";
 
-@import "libs/reset";
-@import "libs/settings";
-@import "libs/mixins";
+@import "partials/reset";
+@import "partials/settings";
+@import "partials/mixins";
 
 
 
@@ -71,11 +71,11 @@ a {
 }
 
 // Import base typography into the cascade (if required)
-@import "libs/typography";
+@import "partials/typography";
 
 
 // Import form styles into the cascade (if required)
-@import "libs/forms";
+@import "partials/forms";
 
 
 
