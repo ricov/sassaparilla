@@ -97,15 +97,6 @@ a {
 	width: 95%;
 }
 
-/* Example styles - you'll most likey want to remove*/
-header {
-	@include padding-leader(4);
-	@include padding-trailer(2);
-	@include trailer(6);
-	background: #333;
-	h1 { color: #fff; }
-}
-
 section 				{ @extend .clearfix; }
 h1 						{ font-weight: 600; }
 ol 						{ @include ordered-inside }
